@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="../task9/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper-form">
+    <header class="form-header">
+      <div class="up-head">
+        <hr />
+        <h1>Registr</h1>
+        <hr />
+      </div>
+      <div class="footer-head">
+        <p>Create your account. Its free and only takes a minute.</p>
+      </div>
+    </header>
+    </section>
+    <form>
+      <section class="form-section">
+        <div class="name-info">
+          <div class="first">
+            <input 
+            type "text" 
+            name="first name"
+            required 
+            placeholder="First Name"; 
+            pattern="^[A-Z-a-z0-9_-]{3,15}$"; 
+            />
+          </div>
+          <div class="last">
+            <input 
+            type "text" 
+            name="last name"
+            required 
+            placeholder="Last Name" 
+            pattern="^[A-Z-a-z0-9_-]{3,15}$"; 
+            />
+          </div>
+        </div>
+        <div class="personal-info">
+          <input 
+          type "email" 
+          required placeholder="Email"; 
+          pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"; 
+          />
+          <input 
+          type "password" 
+          required 
+          placeholder="Password" 
+          />
+          <input 
+          type "password"
+          required
+          placeholder="Comfirm password"
+          />
+         </div>
+      </section>
+      <section class="footer"> 
+        <label>
+          <input type="checkbox"/> I accept everything
+        </label>
+         <button class="registr">
+           REGISTR NOW
+         </button>
+        </label>
+      </section>
+    </form>
+  </div>
+</body>
+
+</html>
